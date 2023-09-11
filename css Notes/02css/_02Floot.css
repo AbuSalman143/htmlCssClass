@@ -1,0 +1,126 @@
+#one{
+    width: 300px;
+    border: 2px solid green;
+    margin: 20px;
+    float: left;
+}
+#two{
+    width: 300px;
+    border: 2px solid gold;
+    margin: 20px;
+    float: left;
+}
+
+#three{
+    width: 300px;
+    border: 2px solid red;
+    margin: 20px;
+    float: left;
+}
+
+
+#one1{
+    width: 300px;
+    border: 2px solid green;
+   
+    clear:both
+}
+#two1{
+   width: 500px;
+    border: 2px solid gold;
+   
+    float : left;
+}
+
+#three1{
+    width: 300px;
+    border: 2px solid red;
+    /* clear: both; */
+    float: left;
+    
+}
+
+
+
+
+/* float apni position ko chode deta hai hai or uski position dusra content le leta hai   
+
+clear: ager kisi container mai float nhi lga hai to wo float wale container ka space leta hai mager clear use krne se wo uske niche shift ho jata hai */
+
+
+            /* CSS  Font */
+
+
+  /* CSS font Properties 
+  
+  1. Font-size
+  2. Font-family
+  3. Font-weight
+  4. Font-style
+  5. Font-variant
+  6. line-height 
+  
+  
+  CSS text properties 
+
+
+  1.Text-align     => left(by default) , right, center justify=>left and light se equal spacing 
+  2.Text-align-last => use for last line only -> right, center , start , last auto 
+  3.Text-transform => uppercase , lowercase,captalize, none  
+  4.Text-indent => 1stline ko kitna ander tak lena hai 50px 
+  5.word-spacing=>  50px => word ke beech ka gap 
+  6.letter-spacing => her leetter k beech a space 10px
+  
+  */
+
+  /* text decoration   
+  
+  text-decoration properties 
+
+
+  1.text-decoration-line
+
+    * undeline=> text k neche line 
+    * Overline => text ke uper line 
+    * Line-through => text ko jaise beech se kat krti hui line 
+    * None
+
+  2.text-decoration-color
+
+    
+  3.text-decoration-style
+
+    * solid  => text k niche jo line hoti hai wo solid hai 
+    * dotted => text k niche jo line hoti hai wo dotted hai 
+    * dashed => text k niche jo line hoti hai wo dashed hai
+    * double => text k niche jo line hoti hai wo double hai
+    * wavy   => text k niche jo line hoti hai wo wavy hai
+
+
+    shorthand 
+
+    text-decoration-line: underline 
+    text-decoration-color: red
+    text-decoration-style:wavy
+
+    text-decoration : underline red wavy 
+
+
+
+
+  */
+
+
+  /* 
+  
+  
+  text shaow
+
+
+  text-shadow:2px (h-shadow) 2px (v-shadoew) 5px (blur radius) orange (color )
+  
+  
+  
+  */
+
+

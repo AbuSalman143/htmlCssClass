@@ -1,0 +1,18 @@
+/*word-wrap: break-word;  long word ko break krne ke liye use krte hai jo container se bhaher nikal jate hai 
+word-break: break-all;  ye sare word ko break krta hai 
+*/
+
+
+#wrap{
+    width: 400px;
+    border: 2px solid burlywood;
+    word-wrap: break-word; /* long word ko break krne ke liye use krte hai jo container se bhaher nikal jate hai */
+}
+
+
+
+#break{
+    width: 400px;
+    border: 2px solid burlywood;
+    word-break: break-all; /* ye sare word ko break krta hai */
+}

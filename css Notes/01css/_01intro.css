@@ -1,0 +1,226 @@
+/* three type of css 
+1. Inline CSS
+2. internal CSS
+3. Extenal CSS */
+
+  /* color */
+
+  /* color:red;
+  background color: green; */
+
+
+  /* Selector  
+
+  1. Tag Name selector 
+  
+  h1{
+    
+  }
+
+
+  2. class Selector 
+  using dot notaion 
+
+  .className{
+  
+}
+
+
+3. ID selectort usin # notaiion 
+#IDName{
+
+}
+*/
+
+
+/* CSS Border style
+
+1. Solid
+2.Dotted 
+3. Dashed
+4. Double
+5. Groove 
+6.Ridge
+7.Inset
+8 Outset 
+9. none
+10. Mix
+
+
+Shothand 
+
+border-width : 2ps;
+border-style:solid;
+border-color:red;
+
+border:2px solid red;
+
+border side 
+
+.Border-top
+.Border-right
+.Border-bottom
+.Border-left
+
+*/
+
+
+/* h1{
+    border-width:3px ;
+    border-style: solid;
+    border-color:greenyellow ;
+} */
+
+h1{
+    border:  10px solid green ;
+}
+
+
+/* CSS Border Radius 
+
+    .Border-top-left-radius
+    .Border-top-right-radius
+    .Border-bottom-right-radius
+    .Border-bottom-left-radius
+
+
+    shorthand
+
+
+    border-radius  
+
+*/
+
+
+/*  CSS Outline properties 
+1. outline-width
+2. outline-Style
+3. outline-Color
+4. outline-offset
+
+
+CSS Outline Style 
+
+1. Solid
+2.Dotted 
+3. Dashed
+4. Double
+5. Groove 
+6.Ridge
+7.Inset
+8 Outset 
+9. none
+10. Mix
+
+
+CSS outline shorthand 
+
+1. outline-width:2ps
+2. outline-Style:solid
+3. outline-Color:red;
+
+
+outline 2ps solid red;
+
+
+*/
+
+
+p{
+    border:  2px solid greenyellow;
+    /* outline-width:3px;
+    outline-Style:solid;
+    outline-Color:green; */
+    outline: 2px solid yellow;
+    outline-offset: 2px;
+}
+
+
+
+/* padding => box k ander side mai jo gap hota hai uso padding kahte hai 
+  
+
+1. padding-top
+2. padding-right
+3. padding-bottom
+4. padding-left
+
+short hand
+
+
+padding:top right bottom left 
+padding:top-bottom  right-left
+*/
+
+/* Marging => Gap b/w two boxes  
+
+CSS margin propeties 
+
+
+padding-top
+2. margin-right
+3. margin-bottom
+4. margin-left
+
+short hand
+
+
+margin:top right bottom left 
+margin:top-bottom  right-left
+ */
+
+
+
+ /* 
+        min-height  && max-heigh
+        max-width && min width
+
+
+ 
+ */
+
+
+ /* box-sizing:border-box; */
+
+
+
+ /* Overflow
+ 
+ 1. Hindden => data hidden ho jata hai  
+ 2. Scroll => data scroll baar mai ajjata hai 
+ 3. Auto =>  jb jat over hota hai to automatically scroll baar aajata hai
+ 4.visible => by deoult properties
+ 
+ 
+
+ 3 type of overflow Properties 
+
+
+
+ 1. overflow   =>  x & y both axis scroll bar
+ 2. overflow-x =>  x axis scroll bar
+ 3. overflow-y =>  y axis scroll bar
+
+
+   overflow: hidden
+    overflow: Scroll
+    overflow: auto 
+ 
+    */
+
+    /*
+     box-shadow
+
+     offset value negative bhi le sakte 
+
+     
+            for single shadow 
+            box-shadow 2px(h-offset) 2px(v-offset) 5px(balur) 10px(speraed) color
+            
+            
+            for multiple shadow  
+
+            box-shadow 2px(h-offset) 2px(v-offset) 5px(balur) 10px(speraed) color , box-shadow 2px(h-offset) 2px(v-offset) 5px(balur) 10px(speraed) color
+    */
+
+

@@ -35,7 +35,7 @@
 #three1{
     width: 300px;
     border: 2px solid red;
-    /* clear: both; */
+    clear: both;
     float: left;
     
 }
@@ -53,8 +53,8 @@ clear: ager kisi container mai float nhi lga hai to wo float wale container ka s
 
   /* CSS font Properties 
   
-  1. Font-size
-  2. Font-family
+  1. Fontami-size
+  2. Font-fly
   3. Font-weight
   4. Font-style
   5. Font-variant

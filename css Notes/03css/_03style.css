@@ -16,3 +16,133 @@ word-break: break-all;  ye sare word ko break krta hai
     border: 2px solid burlywood;
     word-break: break-all; /* ye sare word ko break krta hai */
 }
+
+
+/*                  CSS white space 
+
+whiteSpace value
+
+1.Normal => bydefoult vlaue 
+2.Nowrap  => puri line ek hi line mai aati hai 
+3.pre  => work as "pre tag" 
+4.pre-line => ye single space leta 
+5.pre-wrap => as pre tag but wrap nhi hota hai  
+ 
+
+white-space: properties;
+
+*/
+
+
+
+/*              CSS list Style properties
+
+1.List-style-image  
+2.List-style-position
+3.List-style-type 
+4.List-style-
+
+*/
+
+
+/* https://www.iconfinder.com/    for icon  */
+
+ul{
+    list-style-type:circle ;
+    /* list-style-type:square; ; */
+    /* list-style-type:disc ; */
+    /* list-style-type:none ; */
+    border: 2px solid red;
+    /* list-style-position: inside; */
+    /* list-style-position: outside; */
+    list-style-image: url(/img/arrow.png);
+
+    padding: 00px 40px ;
+
+
+
+}
+
+
+ol{
+    /* list-style-type:upper-alpha ; */
+    /* list-style-type:lower-alpha; ; */
+    /* list-style-type:upper-roman ; */
+    list-style-type:lower-roman; ;
+
+}
+
+
+/*  background img
+
+
+
+1.background img =>background-img:url()
+2.background-repeat
+3.background-position
+
+
+
+
+background-repeat =>background-repeat: ;
+
+* reapat
+* no-repaeat
+* repeat-x
+* repeat-y
+* space
+* round   => round mai strech ho jati 
+
+
+
+
+background-position=>   background-position:;
+
+
+* left top
+* left center
+* left bottom
+* right top
+* right center
+* right bottom
+* center top
+* center center 
+* center bottom
+
+
+background  attachment 
+
+background-attachment: fixed ;=> backgaround img fix hojayegii scroll krne per wo move nhi hogi 
+
+
+
+
+background size
+
+background size=>background-size: 150px(hight-weidth)
+                 background-size: 150px(height) 200px (weidth)   
+
+
+* auto
+* length(px)
+* percentage(%)
+* cover  =>  poore div ko cover kr lega  
+* contain => apne aap ko adjest krne ki koshis krti hai 
+ 
+
+
+background origin
+
+* padding-box => jaha se padding start hota waha se start 
+* border-box => jaha se border start hota waha se start 
+* content-box=> by default => jaha se content start hota waha se start
+background-origin:;
+
+*/
+body{
+    background-image: url(/img/abu\ salman.PNG);
+    background-repeat:round ;
+    /* background-attachment: ; */
+}
+
+

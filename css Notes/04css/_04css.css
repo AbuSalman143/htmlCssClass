@@ -1,0 +1,147 @@
+ /* CSS Position
+ 
+ ++++value+++
+ 
+ 1. Static => by default value 
+ 2. Relative => relative  position jb hm use krte hai to wo div move krta per apni position ko nhi chodta  &  ye apne origin position se hi move krta hai 
+ 3.Absolute => * jaise hi hm relative postion apply krte hai wo apni position ko leave kr deta ha uske baad left right move hota hai  
+ * iska origin body se start hota hai jaha per body ka starting point hota hai
+ * but if immdiate parent position is relative so his origin start from parent div position  
+ 4.Fixed => fixed ho jata hai 
+ 5.Sticky => us value tak pohte hi fix hojata hai 
+ 
+ Position 
+
+ * left    
+ * right
+ * top
+ *Bottom
+
+ left ya right mai koi 1 value dege usi trah se top & bottom mai se bhi koi 1 value hi debge
+  
+
+ X-> axis per ager +ve value denge to right ki trf shif hoga 
+ X-> axis per ager -ve value denge to left ki trf shift hogi 
+
+ Y-> axis per ager +ve value denge to niche  ki trf shif hoga 
+ Y-> axis per ager -ve value denge to uper ki trf shif hoga 
+ 
+ */
+
+                /* ++++ position: relative; ++++ */
+/* .box{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(243, 167, 3) ;
+    background-color: rgb(217, 178, 50);
+    position: relative;
+    left:100px;
+    top:100px
+} */
+
+/* ++++ position: absolute;; ++++ */
+/* .box{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(243, 167, 3) ;
+    background-color: rgb(217, 178, 50);
+    position: absolute;
+    top:100px;
+    left:100px; 
+   
+} */
+
+
+/* ++++ position: fixed; ++++ */
+
+
+/* .box{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(243, 167, 3) ;
+    background-color: rgb(217, 178, 50);
+    position: fixed;
+    top:100px;
+    left:100px; 
+   
+} */
+
+/* ++++ position: sticky; ++++ */
+.box{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(243, 167, 3) ;
+    background-color: rgb(217, 178, 50);
+    position: sticky;
+    top:10px;
+    left:100px; 
+   
+}
+
+
+/*                       z-index 
+z-index:1;
+
+                */
+
+
+
+                /* variable 
+                
+                CSS variable bana ne k liye hmko  :root{
+
+                                                        }
+
+
+                
+                */
+
+
+                /* :root{
+                        --magitnta:red
+                }
+
+
+                .class{
+                    background-color: var(--magitnta);
+                } */
+
+
+                /* clipPath:polygon()   shape ko resize krne k liye use krte hai */
+
+   /*  
+   
+   +++++Filter++++++
+   
+   Filter=> img k effect   k liye use krte hai 
+
+   Filer value 
+
+   1.none=>koi effect nhi lgata 
+   2.blur()=>img ko blur krta hai px mai value dete 
+   3.brightness()=> img ki brightness ko badata hai % mai value ko dete hai 
+   4.contrast()=> imge ka contrast bada hai 
+   5.drop-shadow()=> img ko shadow deta 
+   6.grayscale()=>img ko black& white kerne k liye use krte hai  value % mai hoti 100% per img gray ho jati hai 
+   7.hue-rorate()=>alg alag angel per color change krta hai 
+   8.invert()=>
+   9.opacity()=>
+   10.saturate()=>
+   11.sepia()=>
+   12.url()=>
+
+   */
+
+   /* img{ */
+    /* filter: blur(5px); */
+    /* filter:brightness(150%); */
+    /* filter: contrast(20%); *//*100% default value hai 100 k uper ki value per show hoga */
+    /* filter: drop-shadow(8px 8px 5px red); */ /* same as CSS shadow properties */
+    /* filter: grayscale(100%); */
+    /*filter: hue-rotate(350deg);*//*value degree mai dete hai */
+
+    /*filter: invert(100%); */ /*amre ka naegative m img dikhte the jaise */
+    /* filter: opacity(0.3); */
+    /* filter: saturate(150%); */
+    /* filter: sepia(); */
+   /* } */

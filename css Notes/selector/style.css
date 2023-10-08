@@ -1,0 +1,33 @@
+/* 
+1. simple selector
+    
+    * ID selector (#)
+    * Tag slector
+    * Class selector(.)
+    * Universal slector(*)
+    * groping slector
+
+2. combinator selector  
+    * genral sibling selector (~)
+    * adjacent sibling selector(+)
+    * child selector(>)
+    * descendent selector(space) 
+   
+3.  
+
+
+. universal selector(*)=>  * is notation of universal selector or ye sabhi tag ko select kr leta  
+
+*{
+
+} 
+
+
+Grouping selector =>  is mai group mai sare tag ya ID Ya class ihte hai 
+
+h1 , .className , # {
+
+}
+
+2. combinator selector   
+*/

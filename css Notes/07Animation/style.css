@@ -1,0 +1,162 @@
+/* 
+
+CSS Animation Properties
+
+1. animation-name
+2. animation-duration
+3. animation-timing-function
+4. animation-delay
+5. animation-iteration-count
+6. animation-direction
+7. animation-fill-mode
+8. animation-play-state
+9. animation
+
+
+
+
+animation-timing-function  value =
+
+  * ease        =>slow start then fast then end slow      
+  * linear      =>same speed from start to end
+  * ease-in     =>slow start
+  * ease-out    =>slow end 
+  * ease-in-out =>slow start and end 
+  * cubic-bezier=>lets you define your own value 
+  * step-start=> ek dm se jaha se start honei hoti wahi per chali jati 
+  * step-end=>ek dm se jaha se end honei hoti wahi per chali jati 
+  * step(4,end)=> isme ham step devid kr dete hai 
+
+*/
+
+
+/* @keyframes animation-example {
+    from{
+        css properties
+    }
+    to{
+        css properties
+    }
+}
+
+
+
+@keyframes animation-example {
+    0%{
+        css properties
+    }
+    50%{
+        css properties
+    }
+    100%{
+        css properties
+    }
+} */
+
+
+body{
+    background-color: azure;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
+    animation: animation 4s  1s infinite alternate ;
+
+
+}
+
+
+@keyframes animation {
+    from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+        background-color: tomato;
+        color: white;
+    }
+}
+
+
+.heading{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    
+}
+h1{
+    margin-left: 5px;
+    text-align: center;
+    /* background-color: rgb(131, 223, 223); */
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    line-height: 50px;
+    box-sizing: border-box;
+   
+   
+    
+}
+
+.box1{
+    background-color: rgb(210, 134, 36);
+    animation: animation-for 4s  ease 2s infinite  alternate;
+}
+
+.box2{
+    background-color: rgb(210, 207, 36);
+    animation: animation-for 4s  linear 2s infinite  alternate;
+}
+.box3{
+    background-color: rgb(112, 234, 31);
+    animation: animation-for 4s  ease-in 2s infinite  alternate;
+}
+.box4{
+    background-color: rgb(215, 46, 227);
+    animation: animation-for 4s  ease-out 2s infinite  alternate;
+}
+.box5{
+    background-color: rgb(225, 34, 114);
+    animation: animation-for 4s  ease-in-out 2s infinite  alternate;
+}
+.box6{
+    background-color: rgb(17, 240, 221);
+    animation: animation-for 4s  steps(5) 2s infinite  alternate;
+}
+.box7{
+    background-color: rgb(66, 41, 224);
+    animation: animation-for 4s  cubic-bezier(0.075, 0.82, 0.165, 1) 2s infinite  alternate;
+}
+
+
+
+@keyframes animation-for {
+    from{
+      width: 100px;
+    }
+    to{
+        width: 98%;
+    }
+}

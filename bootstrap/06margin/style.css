@@ -1,0 +1,33 @@
+
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+   }
+ 
+   .container{
+       border: 2px solid  black;
+       margin-top: 30px;
+      
+    
+   }
+   .row{
+       border: 2px solid red;
+       /* margin: 6px 2px; */
+   }
+   .col-3{
+       border: 2px solid rgb(2, 112, 238);
+       /* margin: 6px 2px; */
+   }
+   .pink{
+       background-color: rgb(237, 60, 90);
+   }
+   .blue{
+       background-color: blue;
+   }
+   .orange{
+       background-color: orange;
+   }
+   .green{
+       background-color: green;
+   }

@@ -1,0 +1,121 @@
+/* In CSS, "flex" typically refers to the Flexible Box Layout, commonly known as Flexbox. Flexbox is a layout model designed to make it easier to design complex layouts and align content within a container, especially when the size of your items is unknown or dynamic.
+
+Flexbox introduces a new type of container called a "flex container" (or "flex parent") and a new set of properties for its child elements (or "flex items"). By using these properties, you can control how the child elements are distributed and aligned within the container.
+
+Here are some of the key properties and concepts in Flexbox:
+
+display: flex;: To create a flex container, you set the display property of an element to flex. This element then becomes the parent container for the flex items inside it.
+
+flex-direction: This property determines the main axis along which the flex items are laid out. It can be set to values like row, row-reverse, column, or column-reverse.
+
+justify-content: This property controls the alignment of flex items along the main axis of the flex container. You can use values like flex-start, flex-end, center, space-between, or space-around.
+
+align-items: This property controls the alignment of flex items along the cross axis of the flex container. It accepts values like flex-start, flex-end, center, baseline, or stretch.
+
+flex-grow, flex-shrink, and flex-basis: These properties allow you to control how flex items grow or shrink within the available space in the flex container.
+
+align-self: This property lets you override the align-items property for individual flex items within the container.
+
+order: You can assign an order to flex items to control their display order within the container.
+
+Flexbox is especially useful for creating responsive designs, aligning items within navigation bars, creating flexible grids, and many other layout sce */
+
+
+
+
+/*  */
+
+
+
+
+
+/* CSS Flex box properties
+
+1. flex-direction
+2. flex-wrap
+3. flex-flow
+4. flex-grow
+5. flex-shrink
+6. flex-basis
+7. flex
+8. justify-content
+9. align-content
+10.align-item
+11.align-self
+12.order
+
+
+
+1. flex-direction properties
+    
+    * row => by default 
+    * row-reverse => row ko reversekr deta hai 
+    * column => box ko column mai kr deta 
+    * column-reverse => column ko reverseker deta hai 
+
+
+    2. flex-wrap  => flex wrap properties use krne ager main container se jayda height and width hone per wo column/row wise wrap ho jata hai    
+
+            * nowrap
+            * wrap
+            * wrap-reverse
+
+    3. flex-flow =>   flex direction and flex wrap ko 1 sath likhne k liye use kerte hai 
+    
+    
+
+    4. justify-content=> horizolta alignment krne k liye use krte hai 
+
+
+        * flex-start=> left se start hota hai by default value hai 
+        * flex-end=> right se start hota hai 
+        * center =>  center mai krne k liye use krte hai 
+        * space-around=> 1st and last mai equal space hota hai and beech mai uska double space hota hai 
+        * space-between=>1st and last div bilkul starting and end per hote hai baaki b/w mai equally space lete hai 
+        * space-evenly=>start to end sb equal space hote hai 
+
+
+    5. align-item  =>  vertically alignment k liye use krte hai 
+    
+            * flex-start =>  top sestart hoti hai 
+            * flex-end => bottom sestart hoti hai 
+            * center=> value center mai hoti hai 
+            * stretch=> by defalut value hai
+            * baseline =>text k base se leta hai 
+
+    6.align-content  => verticaly  alignment krne k liye use krte hai but jb tak div wrap na hua ho tb tk use nhi kr sakte hai 
+
+
+        * flex-start=> left se start hota hai by default value hai 
+        * flex-end=> right se start hota hai 
+        * center =>  center mai krne k liye use krte hai 
+        * space-around=> 1st and last mai equal space hota hai and beech mai uska double space hota hai 
+        * space-between=>1st and last div bilkul starting and end per hote hai baaki b/w mai equally space lete hai 
+        * space-evenly=>start to end sb equal space hote hai       
+    
+    
+    7. align-self => ye single dive ko aligne krne k liye usekrte hai   ye vertically alignment krne k liye use krte hai   
+    
+    
+    8. order => order se hm container ko order de sakte hai bydefault 0(zero) hota hai ager hm -1 dete hai to wo dive starting mai hoga -2 dene per -2 wala tarting mai hoga mean jis ki value hm jitni jada negative value  dete hai wo satrting mai hoga   
+    
+    
+    
+    9. flex-grow=> */
+    .container{
+        border: 3px solid black;
+        width: 600px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container *{
+        height: 100px;
+        width: 200px;
+    }
+    .item1{background-color:red;}
+    .item2{background-color:green ;}
+    .item3{background-color: blue;}
+    .item4{background-color: pink;}
+    .item5{background-color: orange;}

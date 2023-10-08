@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Boostrap</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+ <div class="container-fluid">
+
+    <!--   align-items =>  isko hm log row mai lgatehai 
+        
+        1. align-items-start => div uper se start hoga or apni width 
+        content k braber lega
+
+
+        2. align-items-end => div niche  se start hoga or apni width content k braber lega
+        
+        3. align-items-center=>div center   mai hoga or apni width content k braber lega
+         -->
+    <div class="row align-items-center  bg-warning">
+        <div class="col bg-primary">Div-1</div>
+        <div class="col bg-secondary">Div-2</div>
+        <div class="col bg-success">Div-3</div>
+        <div class="col bg-danger">Div-4</div>
+    </div>
+ </div>
+
+ <br>
+ <br><br>
+
+ <hr>
+ <br>
+ <br><br>
+
+
+ <div class="container-fluid">
+
+    <!--
+        
+        align-self => isko hm log col mai lgatehai 
+        
+        1. align-self-start => div uper se start hoga or apni width 
+        content k braber lega
+
+
+        2. align-self-end isko hm log col mai lgatehai  => div niche  se start hoga or apni width content k braber lega
+        
+        3. align-self-center=>div center   mai hoga or apni width content k braber lega
+         -->
+    <div class="row   bg-warning">
+        <div class="col bg-primary align-self-end">Div-1</div>
+        <div class="col bg-secondary align-self-center">Div-2</div>
+        <div class="col bg-success align-self-center">Div-3</div>
+        <div class="col bg-danger align-self-start ">Div-4</div>
+    </div>
+ </div>
+ <br>
+ <br><br>
+
+ <hr>
+ <br>
+ <br><br>
+
+ <div class="container-fluid">
+
+    <!--  jstify-content=> horizontally align krta hai  
+    
+    
+    1. justify-content-start=> by deafult value 
+    2. justify-content-end    
+    3. justify-content-center
+    4. justify-content-around
+    5. justify-content-evenly
+    6.justify-content-space-between 
+
+
+-->
+
+
+    <div class="row justify-content-between bg-warning ">
+        <div class="col-4 bg-primary ">Div-1</div>
+        <div class="col-4 bg-secondary ">Div-2</div>
+        
+    </div>
+
+
+
+    <!-- 
+        for text
+
+        1. text-center
+        2. text-end  
+        
+         for image
+
+        1.img-fluid
+
+        round krne k liye ye img per bhi kaam kerta hai
+
+        1. rounded
+        -->
+    
+ </div>
+</body>
+</html>
